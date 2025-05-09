@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section>
+  <div id="resultado">
+  </div>
+
+  <div id = "operadores">
+  <input type="button" value="+" id = "mais" class="operadores" onclick="insert('+')">
+  <input type="button" value="-" id = "menos" class="operadores" onclick="insert('-')">
+  <input type="button" value="x" id = "vezes" class="operadores" onclick="insert('*')">
+  <input type="button" value="÷" id = "dividido" class="operadores" onclick="insert('/')">
+  </div>
+
+  <div class = "numeros">
+    <div class = "alinhar">
+    <button id = "um" class="numero" onclick="insert('1')">1</button>
+    <input type="button" value="4" id = "quatro" class="numero" onclick="insert('4')">
+    <input type="button" value="7" id = "sete" class="numero" onclick="insert('7')">
+    <input type="button" value="." id = "ponto" class="numero" onclick="insert('.')">
+   
+    </div>
+    <div class = "alinhar">
+    <input type="button" value="2" id = "dois" class="numero" onclick="insert('2')">
+    <input type="button" value="5" id = "cinco" class="numero" onclick="insert('5')">
+    <input type="button" value="8" id = "oito" class="numero" onclick="insert('8')">
+    <input type="button" value="0" id = "zero" class="numero" onclick="insert('0')">
+
+    </div>
+    <div class = "alinhar">
+    <input type="button" value="3" id = "tres" class="numero" onclick="insert('3')">
+    <input type="button" value="6" id = "seis" class="numero" onclick="insert('6')">
+    <input type="button" value="9" id = "nove" class="numero" onclick="insert('9')">
+    <input type="button" value="C" id = "limpa" class="numero" onclick="clean()">
+    </div>
+
+    <input type="button" value="=" id = "igual" class="igual" onclick="igual()">
+
+  </div>
+</section>
+
+
+
+<footer>
+  &copy;Kaio Lourenco
+</footer>
+
+
+
+<script src="calc.js"></script>
+</body>
+</html>

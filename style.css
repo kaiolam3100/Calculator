@@ -1,0 +1,121 @@
+body {
+  width: 500px;
+  margin: 4% auto;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 5px;
+  font-size: 1.8rem;
+  background-color: #ffffff;
+}
+
+.numero{
+  background-color: rgb(255, 255, 255);
+  width: 80px;
+  height: 80px;
+  font-size: 30px;
+  border: 1px solid #bbb;
+  color: rgb(101, 101, 101);
+  border-radius: 3px;
+  margin: 5px -6px 4px 3px;
+  transition: transform 1s;
+  position: relative;
+  
+}
+
+.alinhar{
+  display: inline-block;
+  border-radius: 1px;
+  width: 17%;
+  text-align: center;
+  height: 500px;
+  margin: 5px -6px 4px 3px;
+  height: 265px;
+}
+.operadores{
+  border: 1px solid #bbb;
+  width: 80px;
+  height: 80px;
+  font-size: 30px;
+  background-color: #c9c9c9;
+  color: rgb(53, 53, 53);
+  text-align: center;
+  margin-inline: -1%;
+  border-radius: 1px;
+  transition: transform 1s;
+  position: relative;
+  border-radius: 3px;
+
+}
+.igual{
+  display: inline-block;
+  border-radius: 1px;
+  width: 80px;
+  text-align: center;
+  height: 345px;
+  margin: 10px 10px 10px 8px;
+  vertical-align: top;
+  color: #FFF;
+  background-color: #dd6afa;
+  font-size: 25px;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  transition: transform 1s;
+  position: relative;
+  
+}
+  
+section{
+  padding: 35px;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgb(239, 239, 239);
+}
+
+#resultado{
+  height: 55px;
+  width: 350px;
+  margin: auto;
+  margin-bottom: 4%;
+  background-color: #ffffff;
+  border-radius: 2%;
+  text-align:center;
+  font-size: 40px;
+  border-radius: 5px;
+  
+}
+
+footer{
+  text-align: center;
+  color: #4d90fe;
+  padding-top: 10%;
+  font-size: 13px;
+}
+
+.numero:hover{
+  background-color: white;
+  color: #dd6afa;
+  border-color: #dd6afa;;
+  transform: translateX(1px) scale(0.9);
+  transition: background 0.5s;
+
+}
+
+.operadores:hover{
+  background-color: rgb(183, 183, 183);
+  color: #dd6afa;
+  border-color: #dd6afa;;
+  transform: translateX(4px) scale(0.96);
+  transition: background 0.5s;
+
+}
+
+.igual:hover{
+  background-color: rgb(255, 255, 255);
+  color: #dd6afa;
+  border-color: #dd6afa;;
+  transform: translateX(2px) scale(0.96);
+  transition: background 0.5s;
+
+
+}
+
